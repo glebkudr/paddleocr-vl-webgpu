@@ -1,0 +1,29 @@
+[package]
+name = "pvlc-runtime-native"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+blake3.workspace = true
+bytemuck.workspace = true
+pollster.workspace = true
+pvlc-passes = { path = "../pvlc-passes" }
+pvlc-runtime-core = { path = "../pvlc-runtime-core" }
+pvlc-wgsl = { path = "../pvlc-wgsl" }
+thiserror.workspace = true
+wgpu.workspace = true
+
+[target.'cfg(target_os = "macos")'.dependencies]
+objc2-foundation = { version = "=0.3.2", default-features = false, features = ["std", "NSString", "NSURL", "NSProcessInfo"] }
+objc2-metal = { version = "=0.3.2", default-features = false, features = ["std", "MTLCaptureManager", "MTLDevice"] }
+
+[dev-dependencies]
+pvlc-cpu-ref = { path = "../pvlc-cpu-ref" }
+pvlc-ir = { path = "../pvlc-ir" }
+pvlc-model-schema = { path = "../pvlc-model-schema" }
+pvlc-safetensors = { path = "../pvlc-safetensors" }
+pvlc-testkit = { path = "../pvlc-testkit" }
+tempfile.workspace = true
+toml.workspace = true

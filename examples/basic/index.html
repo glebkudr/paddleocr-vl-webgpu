@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Minimal PaddleOCR-VL inference example running in WebGPU"
+    />
+    <title>PaddleOCR-VL WebGPU essentials</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Apache-2.0 inference essentials</p>
+      <h1>PaddleOCR‑VL<br />inside your browser</h1>
+      <p class="lede">
+        Run one image through the model-specific Rust, WASM and WebGPU engine.
+        No PDF pipeline, layout detector or server upload.
+      </p>
+
+      <form id="recognition-form">
+        <label class="file-field">
+          <span>Image</span>
+          <input id="image-input" type="file" accept="image/*" required />
+        </label>
+        <label>
+          <span>Task</span>
+          <select id="task-input">
+            <option value="ocr">OCR</option>
+            <option value="table">Table recognition</option>
+            <option value="formula">Formula recognition</option>
+            <option value="chart">Chart recognition</option>
+          </select>
+        </label>
+        <button type="submit">Run inference</button>
+      </form>
+
+      <section aria-live="polite">
+        <p id="status">Choose an image to begin.</p>
+        <pre id="result"></pre>
+      </section>
+    </main>
+    <footer>
+      <span>PaddleOCR‑VL WebGPU</span>
+      <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache‑2.0</a>
+      <a href="https://sotaocr.com">Developed by SotaOCR</a>
+    </footer>
+    <script type="module" src="./app.mjs"></script>
+  </body>
+</html>

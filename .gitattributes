@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.wasm binary
+*.safetensors binary
+*.pvlc binary
+*.f32 binary

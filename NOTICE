@@ -1,0 +1,7 @@
+PaddleOCR-VL WebGPU
+Copyright 2026 SotaOCR
+
+This product includes a model-specific inference engine developed by SotaOCR.
+
+PaddleOCR-VL model artifacts are derived from the PaddlePaddle/PaddleOCR-VL-1.6
+checkpoint and retain the upstream model license and notices.

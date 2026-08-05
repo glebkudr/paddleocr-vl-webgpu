@@ -1,0 +1,19 @@
+[package]
+name = "pvlc-passes"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+pvlc-ir = { path = "../pvlc-ir" }
+pvlc-model-schema = { path = "../pvlc-model-schema" }
+pvlc-runtime-core = { path = "../pvlc-runtime-core" }
+
+[dev-dependencies]
+blake3.workspace = true
+serde_json.workspace = true
+
+[lints.clippy]
+clone_on_copy = "allow"
+type_complexity = "allow"

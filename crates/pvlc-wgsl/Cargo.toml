@@ -1,0 +1,14 @@
+[package]
+name = "pvlc-wgsl"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+naga.workspace = true
+pvlc-runtime-core = { path = "../pvlc-runtime-core" }
+thiserror.workspace = true
+
+[dev-dependencies]
+blake3.workspace = true

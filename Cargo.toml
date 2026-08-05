@@ -1,0 +1,47 @@
+[workspace]
+members = [
+    "crates/pvlc-cli",
+    "crates/pvlc-bench",
+    "crates/pvlc-bench-collector",
+    "crates/pvlc-cpu-ref",
+    "crates/pvlc-ir",
+    "crates/pvlc-memory",
+    "crates/pvlc-model-schema",
+    "crates/pvlc-pack",
+    "crates/pvlc-passes",
+    "crates/pvlc-runtime-core",
+    "crates/pvlc-runtime-native",
+    "crates/pvlc-runtime-web",
+    "crates/pvlc-safetensors",
+    "crates/pvlc-testkit",
+    "crates/pvlc-wgsl",
+    "tools/pvlc-browser-harness",
+]
+resolver = "3"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.92"
+license = "Apache-2.0"
+repository = "https://github.com/glebkudr/paddleocr-vl-webgpu"
+
+[workspace.dependencies]
+blake3 = "=1.8.5"
+bytemuck = "=1.25.1"
+clap = { version = "=4.6.2", features = ["derive"] }
+futures-channel = "=0.3.32"
+js-sys = "=0.3.103"
+libm = "=0.2.16"
+naga = { version = "=30.0.0", features = ["wgsl-in"] }
+pollster = "=1.0.1"
+proptest = "=1.11.0"
+serde = { version = "=1.0.228", features = ["derive"] }
+serde_json = "=1.0.150"
+sha2 = "=0.11.0"
+tempfile = "=3.27.0"
+thiserror = "=2.0.18"
+toml = "=1.1.3"
+wasm-bindgen = "=0.2.126"
+wasm-bindgen-futures = "=0.4.76"
+wgpu = "=30.0.0"

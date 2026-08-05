@@ -1,0 +1,21 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+coverage/
+target/
+
+# Model weights are downloaded from their pinned public repositories at runtime.
+web/engine/data/
+*.onnx
+*.pvlc
+*.safetensors
+*.f32
+
+# Local browser/test output.
+.playwright*/
+output/
+tmp/

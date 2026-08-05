@@ -1,0 +1,35 @@
+{
+  "name": "@sotaocr/paddleocr-vl-webgpu",
+  "version": "0.1.0",
+  "description": "PaddleOCR-VL inference in the browser with Rust, WASM and WebGPU",
+  "type": "module",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./web/engine/browser_ocr_runtime.mjs",
+    "./diagnostics": "./web/browser_diagnostics.mjs",
+    "./tasks": "./web/engine/paddleocr_vl_tasks.mjs"
+  },
+  "files": [
+    "web/browser_diagnostics.mjs",
+    "web/engine/*.mjs",
+    "web/engine/pkg/**",
+    "LICENSE",
+    "NOTICE",
+    "THIRD_PARTY_NOTICES.md"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node --test web/tests/*.test.mjs",
+    "test:rust": "cargo test --workspace",
+    "check": "npm test && cargo test --workspace",
+    "build:wasm": "./scripts/build-wasm.sh"
+  },
+  "devDependencies": {
+    "vite": "8.2.0"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

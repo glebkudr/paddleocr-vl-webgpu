@@ -1,0 +1,25 @@
+format_version = 1
+model_id = "PaddlePaddle/PaddleOCR-VL-1.6"
+revision = "66317acc4c9fc17bd154591ce650735cd2855f3e"
+compiler_model_abi = 1
+
+[files]
+".gitattributes" = { blake3 = "31f6f58a80e0bd3c74f070c66897db328f87a209ced487b130fd59c05904c193", size = 1570 }
+"LICENSE" = { blake3 = "31ebad5a844da183c3264de01d35c65d7232cee1a9be9ee5e057e50d8d123f16", size = 11376 }
+"README.md" = { blake3 = "7c34a83b8b2bf1d399e728ee76af4d40f0c249dbadd678137603a6e74e1ad199", size = 21466 }
+"added_tokens.json" = { blake3 = "d2f2522dfd396c5866f99c4cecd88c0925ff2b2841dc6cc97cf998c563cb8863", size = 25381 }
+"chat_template.jinja" = { blake3 = "6a19b0424bafd095b24bf997940aae59dea3b36659bc25cec26b051c0d2e919b", size = 1474 }
+"config.json" = { blake3 = "bd249ac20e7b0458fe9d8c89662e3bd6ad0125864226bce912e0b62739b9a0f5", size = 2059 }
+"configuration_paddleocr_vl.py" = { blake3 = "d0f984a9fad14d94bcfaa5ad9a89df94ce48a6ee1eb2d08977a4d88262e328f5", size = 8104 }
+"generation_config.json" = { blake3 = "78c47d8168d89991b41518b1ec92efdea064e3292967312a8526ec299d4f4952", size = 133 }
+"image_processing_paddleocr_vl.py" = { blake3 = "a96d24e2bf35391c3130232e7d08667f805029c34d29d291a239e6b70b02fc54", size = 25032 }
+"inference.yml" = { blake3 = "9aba04ed9d3a0385aed79e2c9dcddb84e2eb7acba4a1165665351a2a4b493a6d", size = 43 }
+"model.safetensors" = { blake3 = "4dc3ab13685a0c0a701f77f9c5ebafdc0004074247e00bde6b7e7b04279a41fc", size = 1917255968 }
+"modeling_paddleocr_vl.py" = { blake3 = "d3b366856f054c2884640c0a80230c77d2220bb998a2c07d3a4ade453803d893", size = 103889 }
+"preprocessor_config.json" = { blake3 = "06a17b64a56e696acc447ca8002286dde7cc2900f57378e478178c39927cf70e", size = 641 }
+"processing_paddleocr_vl.py" = { blake3 = "7a4a80b9a7576c9354ec1edddfdfe9b90d6a407656efd4638d571d38f90b6804", size = 12253 }
+"processor_config.json" = { blake3 = "58e67e1528ff5730ec83d9d356ff25e22169a6f11eeaa6896b310ba1b9c73590", size = 137 }
+"special_tokens_map.json" = { blake3 = "700353952faf58cb96f7e27eaddc40f033aff8b3e371071651ed8de7f22ceac3", size = 1151 }
+"tokenizer.json" = { blake3 = "664e6c2425fd92e710a67a919753493657005ddcd1cb839737b6678db3edf3c3", size = 11189060 }
+"tokenizer.model" = { blake3 = "b2ab4f3c0e402033fcba3884ff694d5e8584c3c1078ee6c6cd06aeac922fae8d", size = 1614363 }
+"tokenizer_config.json" = { blake3 = "c6f2522b04bdbc341bddc187edf259b7ea063c3546fe71e8eb32326da1d09cc6", size = 186947 }

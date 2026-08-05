@@ -1,0 +1,15 @@
+[package]
+name = "pvlc-cpu-ref"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+libm.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+blake3.workspace = true
+proptest.workspace = true
+pvlc-safetensors = { path = "../pvlc-safetensors" }

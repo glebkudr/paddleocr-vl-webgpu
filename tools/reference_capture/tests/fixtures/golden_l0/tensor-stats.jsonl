@@ -1,0 +1,1 @@
+{"byte_order":"little","contiguous":true,"dtype":"float32","inf_count":0,"l1":8.0,"l2":2.0,"layout":"row-major","max":1.0,"mean":0.0,"min":-1.0,"nan_count":0,"probe_seed":12345,"raw_hash":"blake3:209684608a8f8e329bb4f4c2d1a6d04bf840656b83f9dc1f0cd2864d845bc54c","semantic_id":"vision.layer.00.output","shape":[1,4,8],"std":0.5}

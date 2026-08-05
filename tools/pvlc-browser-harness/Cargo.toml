@@ -1,0 +1,21 @@
+[package]
+name = "pvlc-browser-harness"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+blake3.workspace = true
+clap.workspace = true
+pvlc-pack = { path = "../../crates/pvlc-pack" }
+pvlc-cpu-ref = { path = "../../crates/pvlc-cpu-ref" }
+pvlc-model-schema = { path = "../../crates/pvlc-model-schema" }
+pvlc-runtime-core = { path = "../../crates/pvlc-runtime-core" }
+pvlc-runtime-native = { path = "../../crates/pvlc-runtime-native" }
+pvlc-safetensors = { path = "../../crates/pvlc-safetensors" }
+pvlc-testkit = { path = "../../crates/pvlc-testkit" }
+serde.workspace = true
+serde_json.workspace = true
+tempfile.workspace = true
+thiserror.workspace = true

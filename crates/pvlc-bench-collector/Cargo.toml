@@ -1,0 +1,25 @@
+[package]
+name = "pvlc-bench-collector"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+blake3.workspace = true
+pvlc-bench = { path = "../pvlc-bench" }
+pvlc-passes = { path = "../pvlc-passes" }
+pvlc-runtime-core = { path = "../pvlc-runtime-core" }
+pvlc-runtime-native = { path = "../pvlc-runtime-native" }
+serde_json.workspace = true
+sha2.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+pvlc-cpu-ref = { path = "../pvlc-cpu-ref" }
+pvlc-ir = { path = "../pvlc-ir" }
+serde.workspace = true
+
+[lints.clippy]
+# The compile-time API contract intentionally spells the full sealed entry-point signatures.
+type_complexity = "allow"

@@ -1,0 +1,12 @@
+[package]
+name = "pvlc-memory"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+
+[dev-dependencies]
+blake3.workspace = true
+proptest.workspace = true

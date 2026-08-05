@@ -1,0 +1,1145 @@
+{
+  "assembly_request": {
+    "attempt_log": [
+      {
+        "cohort": "cold",
+        "planned_slot": 0,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10000,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 0,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5000,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 0,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 0,
+        "status": "passed"
+      },
+      {
+        "cohort": "warmup",
+        "planned_slot": 0,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10001,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 0,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5001,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 0,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 1,
+        "status": "passed"
+      },
+      {
+        "cohort": "warmup",
+        "planned_slot": 1,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10002,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 1,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5002,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 1,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 2,
+        "status": "passed"
+      },
+      {
+        "cohort": "warmup",
+        "planned_slot": 2,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10003,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 2,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5003,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 2,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 3,
+        "status": "passed"
+      },
+      {
+        "cohort": "warmup",
+        "planned_slot": 3,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10004,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 3,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5004,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 3,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 4,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 0,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10005,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 0,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5005,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 0,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 5,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 1,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10006,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 1,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5006,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 1,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 6,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 2,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10007,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 2,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5007,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 2,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 7,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 3,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10008,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 3,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5008,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 3,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 8,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 4,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10009,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 4,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5009,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 4,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 9,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 5,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10010,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 5,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5010,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 5,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 10,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 6,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10011,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 6,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5011,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 6,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 11,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 7,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10012,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 7,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5012,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 7,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 12,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 8,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10013,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 8,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5013,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 8,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 13,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 9,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10014,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 9,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5014,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 9,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 14,
+        "status": "passed"
+      },
+      {
+        "cohort": "measured",
+        "planned_slot": 10,
+        "sample": {
+          "allocated_gpu_bytes": 151932736,
+          "api_wall_ns": 10015,
+          "causal_evidence_blake3": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+          "correctness_report_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+          "gpu_timestamp": {
+            "reason": "adapter feature unavailable",
+            "status": "unavailable"
+          },
+          "index": 10,
+          "kernel_variant_id": "vision-qkv-fused-f32-v1",
+          "logical_gpu_bytes": 151931712,
+          "output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+          "queue_wall": {
+            "duration_ns": 5015,
+            "status": "available"
+          },
+          "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+          "schedule_slot": 10,
+          "status": {
+            "status": "passed"
+          },
+          "thermal_after": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "thermal_before": {
+            "method": "ProcessInfo.thermalState",
+            "status": "available",
+            "value": "nominal"
+          },
+          "topology": {
+            "command_buffer_count": 28,
+            "compute_pass_count": 28,
+            "dispatch_count": 271,
+            "map_count": 1,
+            "submission_count": 28
+          }
+        },
+        "sequence": 15,
+        "status": "passed"
+      }
+    ],
+    "correctness_anchor": {
+      "causal_validator_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "expected_checkpoint_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+      "policy_id": "official-l3-existing-envelope-v1",
+      "validator_blake3": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    },
+    "load_or_compile": {
+      "clock_resolution_ns": 1,
+      "clock_source": "performance-now",
+      "duration_ns": 40,
+      "execution_boundary": "load_or_compile",
+      "passport_blake3": "f1f4a78878dac99c28a56771aae5b954d3afef7f26ee09d15a9a490f84df545c",
+      "protocol_blake3": "8c2567d417588ae46be181d6b6b593cd0bed1cb18328640b50333ebbba38bffb",
+      "status": {
+        "status": "passed"
+      },
+      "thermal_after": {
+        "method": "ProcessInfo.thermalState",
+        "status": "available",
+        "value": "fair"
+      },
+      "thermal_before": {
+        "method": "ProcessInfo.thermalState",
+        "status": "available",
+        "value": "nominal"
+      },
+      "workload_blake3": "81f74a9a87de861af7e86cc2d339599ae320af993c51e4e418be56699e186a10"
+    },
+    "passport": {
+      "adapter_name": "Apple M4 Pro",
+      "backend": {
+        "adapter_backend": "browser_webgpu",
+        "browser_version": "150.0.0.0",
+        "features": [],
+        "kind": "chrome_webgpu",
+        "limits": {
+          "max_buffer_size": 4294967292,
+          "max_compute_workgroups_per_dimension": 65535,
+          "max_storage_buffer_binding_size": 4294967292,
+          "max_storage_buffers_per_shader_stage": 10,
+          "min_storage_buffer_offset_alignment": 256
+        },
+        "timestamp_query": false,
+        "user_agent": "Chrome/150.0.0.0"
+      },
+      "build_profile": "release",
+      "cargo_version": "cargo 1.92.0",
+      "collector_blake3": "4444444444444444444444444444444444444444444444444444444444444444",
+      "compiler_runtime_blake3": "2222222222222222222222222222222222222222222222222222222222222222",
+      "display_attached": {
+        "method": "CGGetOnlineDisplayList",
+        "status": "available",
+        "value": "true"
+      },
+      "low_power_mode": {
+        "method": "pmset -g custom",
+        "status": "available",
+        "value": "false"
+      },
+      "machine": "MacBook Pro",
+      "model": {
+        "case_id": "ocr.clean_latin.0001/vision.stack.27",
+        "input_blake3": "8888888888888888888888888888888888888888888888888888888888888888",
+        "manifest_sha256": "484f982080f3114c285b9db368396859815f768f713ceb960e7fd409f8d6c48b",
+        "model_lock_blake3": "5555555555555555555555555555555555555555555555555555555555555555",
+        "pack_blake3": "6666666666666666666666666666666666666666666666666666666666666666",
+        "profile": "ocr-clean-latin-l3",
+        "revision": "PaddleOCR-VL-1.6@pinned"
+      },
+      "os_build": "25F90",
+      "os_version": "macOS 26.5",
+      "physical_memory_bytes": 51539607552,
+      "power_profile": {
+        "method": "pmset -g custom",
+        "status": "available",
+        "value": "automatic"
+      },
+      "power_source": {
+        "method": "pmset -g batt",
+        "status": "available",
+        "value": "ac"
+      },
+      "rustc_version": "rustc 1.92.0",
+      "soc": "Apple M4 Pro",
+      "source_tree_blake3": "1111111111111111111111111111111111111111111111111111111111111111",
+      "thermal_state": {
+        "method": "ProcessInfo.thermalState",
+        "status": "available",
+        "value": "nominal"
+      },
+      "wgpu_version": "30.0.0",
+      "wgsl_runtime_blake3": "3333333333333333333333333333333333333333333333333333333333333333"
+    },
+    "protocol": {
+      "background_load_policy": "reject-observed-heavy-load",
+      "build_profile": "release",
+      "class": "stage_macro",
+      "clock_resolution_ns": 1,
+      "clock_source": "performance-now",
+      "interruption_policy": "reject-any-interruption",
+      "isolation_policy": "dedicated-process-no-background-load",
+      "measured_count": 11,
+      "output_validation_policy": "validate-every-sample",
+      "schedule": "single-stable-variant-v1",
+      "synchronization": "await-complete-map-validate",
+      "warmup_count": 4
+    },
+    "schema_version": 1,
+    "workload": {
+      "checkpoint_policy": "depths-0-1-13-26-final",
+      "checkpoint_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+      "execution_boundary": "api_wall",
+      "hidden_size": 1152,
+      "kernel_variant": {
+        "abi_blake3": "381449b069ab77f09eaf174cad031d1dfb26cde381b91f5195053af08ae0d2e1",
+        "expected_topology": {
+          "command_buffer_count": 28,
+          "compute_pass_count": 28,
+          "dispatch_count": 271,
+          "map_count": 1,
+          "submission_count": 28
+        },
+        "id": "vision-qkv-fused-f32-v1",
+        "source_set_blake3": "f20552fafb9b770ce116554732aa89631e1f7808674e68655ffdb1ec99da71c4"
+      },
+      "layer_count": 27,
+      "manifest_sha256": "484f982080f3114c285b9db368396859815f768f713ceb960e7fd409f8d6c48b",
+      "ordered_layer_plans_blake3": [
+        "47a19d500f711826ec67aae6cd0a8f3e17b77ab971de4c4def025fc98d460d0f",
+        "64514e927531e6088e6c75315fae5fb2c57ec514cd7628cf12173ea88189334f",
+        "0fc996729fb058ecc597bafbb61fc532af728b0ebec47c4641eaf74dc8b5eb01",
+        "5b0881b5b7d8f281119bd65e5f670d5f7f2c33973d6423914cbb9728afa4955a",
+        "f66b7f891aa1e1770eb4139dfbdff0cbd0d2e0bba4852f0a294ff3910cfd9397",
+        "5b2d2fa97c7a5ac0314e6383f40a7ac5e12f5b092de9f430ba8d985042787403",
+        "f1fb31b12a09981e98d4724ac7467fb66d1acb4d0005cce9c53ab2579db5f40b",
+        "ff0cd0c033ff85b2680636e380bb3e00ce6ace5b70e2651ee9f12179421d7d98",
+        "52ef51a564146e85dc4c6fd6418dc81e6fc008d7dcbce230b0ef2085a4945967",
+        "b271a656d0302471f8cb39f48f0d8aeef0ce1fb4d9c021bf24601d2b6de91746",
+        "b2e41a352997382089c3b2ec3ef17090722f7bbb45c177daf0f1a57a3210b89c",
+        "3420bfcbe28bd8c3fb010510cb9469fc7db90b2495a46865c4eb3e4cdedd7298",
+        "3047558db0402807781ca92a45d6ee27d391c0eabb6ff6bd4c7adc58fc5563b0",
+        "f1f5b5678c6d6b0c55bce58a5451ae3e73fbebe713ad97e74139a1ddfa5a9359",
+        "6059bd210ce17f6e70746f8d90dd0c5d4bfef7da2dfc2d81576ca3e273abf5bd",
+        "1a87f9eb68505315f95faaf496b991c4d13bb2775d64a911ce1fba1ae7bd90ef",
+        "746afc29839766bb2b35e450a4ecc7912db1ee676a206097a1ca9472db9e0a59",
+        "823f75975c4aae93b889b33b0d6103af387ebfea5faa5bf5cc789234068bbcb5",
+        "05d36cdf29a1cbb9962f80e0b488d1883c919053b25c4b06ac2776e15fd324da",
+        "4fc89cd6cfa02e9d134db75c74b25433df15ebc1fabb2b33751ef26bf94991ec",
+        "ede29ab17d6f2db505d660c574654f45a7556ee3e9fcf8fadde3360a7410e41b",
+        "cb40d31a6fb5c52406a53be6ba0e527885bc69faa8d665a94317eab27edd8232",
+        "662b4a6c1135f51a88d616672182ed018d6bb16f5ba84c2a78aff7d012c6fe60",
+        "34d6775f918898a3d4a5fc8e495c2b00b4d93812453494f9decb6959fabe484f",
+        "0c554b2fa510ceb4e0628dc62b85740181d80b875b8f8a1e039baa11de25f195",
+        "576e54363fc772478b1ca8f765c625ef3f4971d75cce6487692552c6f9b6eb85",
+        "35957c10d79549fc8d982982d10021c702401abf091a11c20d6a6cceac3cb191"
+      ],
+      "qkv_outcome": "fused",
+      "qkv_policy": "required",
+      "readback_policy": "depths-0-1-13-26-final-plus-qkv-canaries",
+      "residency_plan": {
+        "activation_arena_bytes": 61574656,
+        "activation_buffer_count": 3,
+        "activation_strategy": "static_arena_alias",
+        "allocated_gpu_bytes": 151932736,
+        "id": "browser-bounded-shard-static_arena_alias-v1",
+        "logical_gpu_bytes": 151931712,
+        "main_buffers_bytes": 11759616,
+        "max_resident_shard_bytes": 60958016,
+        "scratch_arena_bytes": 49815040
+      },
+      "semantic_graph_blake3": "2b2556c363545dcef569e3e6d0db01967973a081706c8483e1c5af3c7dc5bf73",
+      "tokens": 1276
+    }
+  },
+  "clock_duration_ns": [
+    1.4,
+    2.4,
+    3.4,
+    4.4,
+    1.4,
+    2.4,
+    3.4,
+    4.4,
+    1.4,
+    2.4,
+    3.4,
+    4.4,
+    1.4,
+    2.4,
+    3.4,
+    4.4
+  ],
+  "expected_assembly_blake3": "14e477a4e6f943c56a73f30588e9e0182019d1d06b3b2ef3d0b0b3d653a414c6",
+  "expected_attempt_count": 16,
+  "expected_evidence_blake3": "a21d0b7125ff3254fba5d7f377b2f32e992155c5ef69ad2a3f621f982b260bd0",
+  "operation_binding": {
+    "descriptor": {
+      "activation_arena_bytes": 61574656,
+      "activation_buffer_count": 3,
+      "activation_strategy": "static_arena_alias",
+      "allocated_gpu_bytes": 151932736,
+      "expected_output_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+      "expected_topology": {
+        "command_buffer_count": 28,
+        "compute_pass_count": 28,
+        "dispatch_count": 271,
+        "map_count": 1,
+        "submission_count": 28
+      },
+      "index": 777,
+      "kernel_variant_id": "vision-qkv-fused-f32-v1",
+      "logical_gpu_bytes": 151931712,
+      "main_buffers_bytes": 11759616,
+      "residency_plan_id": "browser-bounded-shard-static_arena_alias-v1",
+      "schedule_slot": 777,
+      "scratch_arena_bytes": 49815040,
+      "timestamp_query": false
+    },
+    "qkv_policy": "required"
+  },
+  "plan": {
+    "correctness_anchor": {
+      "causal_validator_blake3": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "expected_checkpoint_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+      "policy_id": "official-l3-existing-envelope-v1",
+      "validator_blake3": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+    },
+    "load_or_compile": {
+      "clock_resolution_ns": 1,
+      "clock_source": "performance-now",
+      "duration_ns": 1,
+      "execution_boundary": "load_or_compile",
+      "passport_blake3": "f1f4a78878dac99c28a56771aae5b954d3afef7f26ee09d15a9a490f84df545c",
+      "protocol_blake3": "8c2567d417588ae46be181d6b6b593cd0bed1cb18328640b50333ebbba38bffb",
+      "status": {
+        "status": "passed"
+      },
+      "thermal_after": {
+        "method": "ProcessInfo.thermalState",
+        "status": "available",
+        "value": "nominal"
+      },
+      "thermal_before": {
+        "method": "ProcessInfo.thermalState",
+        "status": "available",
+        "value": "nominal"
+      },
+      "workload_blake3": "81f74a9a87de861af7e86cc2d339599ae320af993c51e4e418be56699e186a10"
+    },
+    "passport": {
+      "adapter_name": "Apple M4 Pro",
+      "backend": {
+        "adapter_backend": "browser_webgpu",
+        "browser_version": "150.0.0.0",
+        "features": [],
+        "kind": "chrome_webgpu",
+        "limits": {
+          "max_buffer_size": 4294967292,
+          "max_compute_workgroups_per_dimension": 65535,
+          "max_storage_buffer_binding_size": 4294967292,
+          "max_storage_buffers_per_shader_stage": 10,
+          "min_storage_buffer_offset_alignment": 256
+        },
+        "timestamp_query": false,
+        "user_agent": "Chrome/150.0.0.0"
+      },
+      "build_profile": "release",
+      "cargo_version": "cargo 1.92.0",
+      "collector_blake3": "4444444444444444444444444444444444444444444444444444444444444444",
+      "compiler_runtime_blake3": "2222222222222222222222222222222222222222222222222222222222222222",
+      "display_attached": {
+        "method": "CGGetOnlineDisplayList",
+        "status": "available",
+        "value": "true"
+      },
+      "low_power_mode": {
+        "method": "pmset -g custom",
+        "status": "available",
+        "value": "false"
+      },
+      "machine": "MacBook Pro",
+      "model": {
+        "case_id": "ocr.clean_latin.0001/vision.stack.27",
+        "input_blake3": "8888888888888888888888888888888888888888888888888888888888888888",
+        "manifest_sha256": "484f982080f3114c285b9db368396859815f768f713ceb960e7fd409f8d6c48b",
+        "model_lock_blake3": "5555555555555555555555555555555555555555555555555555555555555555",
+        "pack_blake3": "6666666666666666666666666666666666666666666666666666666666666666",
+        "profile": "ocr-clean-latin-l3",
+        "revision": "PaddleOCR-VL-1.6@pinned"
+      },
+      "os_build": "25F90",
+      "os_version": "macOS 26.5",
+      "physical_memory_bytes": 51539607552,
+      "power_profile": {
+        "method": "pmset -g custom",
+        "status": "available",
+        "value": "automatic"
+      },
+      "power_source": {
+        "method": "pmset -g batt",
+        "status": "available",
+        "value": "ac"
+      },
+      "rustc_version": "rustc 1.92.0",
+      "soc": "Apple M4 Pro",
+      "source_tree_blake3": "1111111111111111111111111111111111111111111111111111111111111111",
+      "thermal_state": {
+        "method": "ProcessInfo.thermalState",
+        "status": "available",
+        "value": "nominal"
+      },
+      "wgpu_version": "30.0.0",
+      "wgsl_runtime_blake3": "3333333333333333333333333333333333333333333333333333333333333333"
+    },
+    "protocol": {
+      "background_load_policy": "reject-observed-heavy-load",
+      "build_profile": "release",
+      "class": "stage_macro",
+      "clock_resolution_ns": 1,
+      "clock_source": "performance-now",
+      "interruption_policy": "reject-any-interruption",
+      "isolation_policy": "dedicated-process-no-background-load",
+      "measured_count": 11,
+      "output_validation_policy": "validate-every-sample",
+      "schedule": "single-stable-variant-v1",
+      "synchronization": "await-complete-map-validate",
+      "warmup_count": 4
+    },
+    "schema_version": 1,
+    "workload": {
+      "checkpoint_policy": "depths-0-1-13-26-final",
+      "checkpoint_sha256": "3d36c0e0c95be0bc87ddf5298d45b96b83d1756c46a4c24aa493e5eb405ca567",
+      "execution_boundary": "api_wall",
+      "hidden_size": 1152,
+      "kernel_variant": {
+        "abi_blake3": "381449b069ab77f09eaf174cad031d1dfb26cde381b91f5195053af08ae0d2e1",
+        "expected_topology": {
+          "command_buffer_count": 28,
+          "compute_pass_count": 28,
+          "dispatch_count": 271,
+          "map_count": 1,
+          "submission_count": 28
+        },
+        "id": "vision-qkv-fused-f32-v1",
+        "source_set_blake3": "f20552fafb9b770ce116554732aa89631e1f7808674e68655ffdb1ec99da71c4"
+      },
+      "layer_count": 27,
+      "manifest_sha256": "484f982080f3114c285b9db368396859815f768f713ceb960e7fd409f8d6c48b",
+      "ordered_layer_plans_blake3": [
+        "47a19d500f711826ec67aae6cd0a8f3e17b77ab971de4c4def025fc98d460d0f",
+        "64514e927531e6088e6c75315fae5fb2c57ec514cd7628cf12173ea88189334f",
+        "0fc996729fb058ecc597bafbb61fc532af728b0ebec47c4641eaf74dc8b5eb01",
+        "5b0881b5b7d8f281119bd65e5f670d5f7f2c33973d6423914cbb9728afa4955a",
+        "f66b7f891aa1e1770eb4139dfbdff0cbd0d2e0bba4852f0a294ff3910cfd9397",
+        "5b2d2fa97c7a5ac0314e6383f40a7ac5e12f5b092de9f430ba8d985042787403",
+        "f1fb31b12a09981e98d4724ac7467fb66d1acb4d0005cce9c53ab2579db5f40b",
+        "ff0cd0c033ff85b2680636e380bb3e00ce6ace5b70e2651ee9f12179421d7d98",
+        "52ef51a564146e85dc4c6fd6418dc81e6fc008d7dcbce230b0ef2085a4945967",
+        "b271a656d0302471f8cb39f48f0d8aeef0ce1fb4d9c021bf24601d2b6de91746",
+        "b2e41a352997382089c3b2ec3ef17090722f7bbb45c177daf0f1a57a3210b89c",
+        "3420bfcbe28bd8c3fb010510cb9469fc7db90b2495a46865c4eb3e4cdedd7298",
+        "3047558db0402807781ca92a45d6ee27d391c0eabb6ff6bd4c7adc58fc5563b0",
+        "f1f5b5678c6d6b0c55bce58a5451ae3e73fbebe713ad97e74139a1ddfa5a9359",
+        "6059bd210ce17f6e70746f8d90dd0c5d4bfef7da2dfc2d81576ca3e273abf5bd",
+        "1a87f9eb68505315f95faaf496b991c4d13bb2775d64a911ce1fba1ae7bd90ef",
+        "746afc29839766bb2b35e450a4ecc7912db1ee676a206097a1ca9472db9e0a59",
+        "823f75975c4aae93b889b33b0d6103af387ebfea5faa5bf5cc789234068bbcb5",
+        "05d36cdf29a1cbb9962f80e0b488d1883c919053b25c4b06ac2776e15fd324da",
+        "4fc89cd6cfa02e9d134db75c74b25433df15ebc1fabb2b33751ef26bf94991ec",
+        "ede29ab17d6f2db505d660c574654f45a7556ee3e9fcf8fadde3360a7410e41b",
+        "cb40d31a6fb5c52406a53be6ba0e527885bc69faa8d665a94317eab27edd8232",
+        "662b4a6c1135f51a88d616672182ed018d6bb16f5ba84c2a78aff7d012c6fe60",
+        "34d6775f918898a3d4a5fc8e495c2b00b4d93812453494f9decb6959fabe484f",
+        "0c554b2fa510ceb4e0628dc62b85740181d80b875b8f8a1e039baa11de25f195",
+        "576e54363fc772478b1ca8f765c625ef3f4971d75cce6487692552c6f9b6eb85",
+        "35957c10d79549fc8d982982d10021c702401abf091a11c20d6a6cceac3cb191"
+      ],
+      "qkv_outcome": "fused",
+      "qkv_policy": "required",
+      "readback_policy": "depths-0-1-13-26-final-plus-qkv-canaries",
+      "residency_plan": {
+        "activation_arena_bytes": 61574656,
+        "activation_buffer_count": 3,
+        "activation_strategy": "static_arena_alias",
+        "allocated_gpu_bytes": 151932736,
+        "id": "browser-bounded-shard-static_arena_alias-v1",
+        "logical_gpu_bytes": 151931712,
+        "main_buffers_bytes": 11759616,
+        "max_resident_shard_bytes": 60958016,
+        "scratch_arena_bytes": 49815040
+      },
+      "semantic_graph_blake3": "2b2556c363545dcef569e3e6d0db01967973a081706c8483e1c5af3c7dc5bf73",
+      "tokens": 1276
+    }
+  },
+  "run_id": "m7d1a3-browser-fused-above-minimum",
+  "schema_version": 1,
+  "variant_links": {
+    "legacy_assembly_blake3": "5964c081d1fb78534d4a49dc2649c5535d0d360be16181f49378673cf5708429",
+    "legacy_workload_blake3": "3228d446d974ea2c52bb6408b9828971d9c42afd23a0c6bd2fa5c9d88e222573",
+    "timestamp_passport_blake3": "8e5e110b0586b86782a05256901cf449d303c362635273c87a76e33d447db961",
+    "webkit_assembly_blake3": "471c21516610c995a5fa8d66ceed76649aef3a57cc94aab060acfb994a95d09d",
+    "webkit_passport_blake3": "a686f40c74e075370e79f1e9f4e4db5528d51499155c30d9c7a05844c18de2f3"
+  }
+}

@@ -1,0 +1,23 @@
+format_version = 1
+model_revision = "66317acc4c9fc17bd154591ce650735cd2855f3e"
+trace_schema_version = 1
+
+[[bundles]]
+case_id = "ocr.clean_latin.0001"
+trace_level = "L3"
+artifact_path = "artifacts/goldens/ocr.clean_latin.0001-l3"
+bundle_digest = "blake3:35572ac07da5fddee97becb46fb866f906200f433f4c5677ad20fdf36440acf9"
+semantic_fingerprint = "blake3:632cbe2de6f47f8f84c764e3a551bf99f352d7459c98d939eb89725357f952b4"
+generated_tokens = [94013, 898]
+decoded_text = "JUL"
+repeat_count = 2
+
+[[bundles]]
+case_id = "table.simple.0001"
+trace_level = "L2"
+artifact_path = "artifacts/goldens/table.simple.0001-l2"
+bundle_digest = "blake3:4cecc8b2abc37030920acf8860bb317084125dbbbcae5af394fccd0c8044c842"
+semantic_fingerprint = "blake3:91f72ffdf81070c2c9ca31628605064bdc02bf19417482cefce41d6a27aa5404"
+generated_tokens = [101309, 93933]
+decoded_text = "<fcel>m"
+repeat_count = 2

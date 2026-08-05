@@ -1,0 +1,1 @@
+{"case_id":"ocr.synthetic.0001","do_sample":false,"height":1,"max_new_tokens":32,"max_pixels":1003520,"prompt":"OCR:","source_image_hash":"blake3:323b696eb96f70193ac43ed8f56c417a59be02086756fe8dc43bfc22a535f258","source_media_type":"image/x-portable-pixmap","task":"ocr","width":2}

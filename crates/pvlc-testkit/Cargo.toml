@@ -1,0 +1,19 @@
+[package]
+name = "pvlc-testkit"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[dependencies]
+pvlc-cpu-ref = { path = "../pvlc-cpu-ref" }
+pvlc-runtime-core = { path = "../pvlc-runtime-core" }
+serde.workspace = true
+thiserror.workspace = true
+
+[dev-dependencies]
+blake3.workspace = true
+pvlc-runtime-native = { path = "../pvlc-runtime-native" }
+pvlc-safetensors = { path = "../pvlc-safetensors" }
+serde_json.workspace = true
+toml.workspace = true

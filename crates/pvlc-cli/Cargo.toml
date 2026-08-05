@@ -1,0 +1,29 @@
+[package]
+name = "pvlc-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+
+[lib]
+name = "pvlc_cli"
+
+[[bin]]
+name = "pvlc"
+path = "src/main.rs"
+
+[dependencies]
+blake3.workspace = true
+clap.workspace = true
+pvlc-ir = { path = "../pvlc-ir" }
+pvlc-cpu-ref = { path = "../pvlc-cpu-ref" }
+pvlc-model-schema = { path = "../pvlc-model-schema" }
+pvlc-pack = { path = "../pvlc-pack" }
+pvlc-safetensors = { path = "../pvlc-safetensors" }
+serde.workspace = true
+serde_json.workspace = true
+tempfile.workspace = true
+thiserror.workspace = true
+toml.workspace = true
+
+[dev-dependencies]
