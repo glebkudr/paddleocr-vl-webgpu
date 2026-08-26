@@ -1,14 +1,14 @@
 # PaddleOCR-VL WebGPU
 
-**Add client-side OCR for text, tables, formulas and charts to your web app—with no per-page API bill.**
+**The only browser-native port of PaddleOCR-VL 1.6—free, open source and
+powered by WebGPU.**
 
-PaddleOCR-VL WebGPU runs PaddleOCR-VL 1.6 in compatible browsers through a
-model-specific Rust, WebAssembly and WebGPU engine. Pass it an image or
-prepared canvas, choose an OCR task and receive raw model output through a
-focused JavaScript API—without an API key or hosted inference backend.
+Add client-side OCR for text, tables, formulas and charts to your web app with
+no API key, hosted inference backend or per-page bill.
 
-This is not a classic PP-OCR browser port: it runs the PaddleOCR-VL 1.6
-vision-language model itself, locally in the browser with WebGPU.
+PaddleOCR-VL WebGPU runs locally in compatible browsers through a model-specific
+Rust, WebAssembly and WebGPU engine. Pass it an image or prepared canvas, choose
+an OCR task and receive raw model output through a focused JavaScript API.
 
 **[Try this model online](https://sotaocr.com/en/free-ocr)**
 
