@@ -1,11 +1,29 @@
 # PaddleOCR-VL WebGPU
 
-Try SotaOCR online: [https://sotaocr.com/en/free-ocr](https://sotaocr.com/en/free-ocr)
+**Add client-side OCR for text, tables, formulas and charts to your web app—with no per-page API bill.**
 
-Run the PaddleOCR-VL 1.6 network directly in the browser with a
-model-specific Rust/WASM/WebGPU inference engine.
+PaddleOCR-VL WebGPU runs PaddleOCR-VL 1.6 in compatible browsers through a
+model-specific Rust, WebAssembly and WebGPU engine. Pass it an image or
+prepared canvas, choose an OCR task and receive raw model output through a
+focused JavaScript API—without an API key or hosted inference backend.
 
-This Apache-2.0 repository contains the inference essentials:
+**[Try this model online](https://sotaocr.com/en/free-ocr)**
+
+## Why developers choose it
+
+- **Free and open source:** Apache-2.0 code with no per-page OCR fees.
+- **Browser-local inference:** the included example does not send image bytes
+  to SotaOCR; public model files and static assets are downloaded from
+  configured origins.
+- **Concrete OCR tasks:** supports `ocr`, `table`, `formula` and `chart`.
+- **Focused JavaScript API:** accepts an image or prepared canvas and returns
+  raw model output.
+- **Built for compatible GPUs:** specialized WebGPU kernels run in browsers
+  with WebGPU and `shader-f16`.
+- **Reproducible:** pinned model revisions, integrity checks and committed WASM
+  artifacts.
+
+This repository contains the inference essentials:
 
 - the AOT compiler and model-pack tools;
 - Rust/WASM runtime and specialized WGSL kernels;
