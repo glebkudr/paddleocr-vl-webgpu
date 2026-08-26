@@ -7,6 +7,9 @@ model-specific Rust, WebAssembly and WebGPU engine. Pass it an image or
 prepared canvas, choose an OCR task and receive raw model output through a
 focused JavaScript API—without an API key or hosted inference backend.
 
+This is not a classic PP-OCR browser port: it runs the PaddleOCR-VL 1.6
+vision-language model itself, locally in the browser with WebGPU.
+
 **[Try this model online](https://sotaocr.com/en/free-ocr)**
 
 ## Why developers choose it
@@ -22,6 +25,28 @@ focused JavaScript API—without an API key or hosted inference backend.
   with WebGPU and `shader-f16`.
 - **Reproducible:** pinned model revisions, integrity checks and committed WASM
   artifacts.
+
+## Measured browser performance vs. native
+
+Same FP16 checkpoint, same table-recognition prompt, Apple M4 Pro, with warm
+sequential inference:
+
+| Measurement | Browser WebGPU | Native PyTorch/MPS | Relative result |
+| --- | ---: | ---: | ---: |
+| Vision encoder + projector latency | 0.638 s | 0.510 s | Browser 1.25× |
+| Autoregressive decode throughput | 79.83 tok/s | 97.26 tok/s | Browser 1.22× higher per-token latency |
+| End-to-end elapsed time | 17.152 s | 12.335 s | Browser 1.39× |
+
+The timed end-to-end runs produced different output lengths—1,041 browser
+tokens and 1,014 native tokens—so decode is compared using throughput and
+per-token latency. Their first 256 generated tokens were byte-identical.
+
+In a separate full-output parity run, not used for the timing table, browser
+and native produced the same 1,014-token, 2,167-character result after removing
+the browser-only `Table Recognition: ` UI prefix.
+
+Model loading was excluded. This is a single-input benchmark, not a broad
+accuracy or hardware study; performance varies by browser, GPU, and document.
 
 This repository contains the inference essentials:
 
