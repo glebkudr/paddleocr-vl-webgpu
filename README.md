@@ -1,5 +1,7 @@
 # PaddleOCR-VL WebGPU
 
+Try SotaOCR online: [https://sotaocr.com/en/free-ocr](https://sotaocr.com/en/free-ocr)
+
 Run the PaddleOCR-VL 1.6 network directly in the browser with a
 model-specific Rust/WASM/WebGPU inference engine.
 
